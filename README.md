@@ -9,10 +9,26 @@ and select data from a CSV file containing information about different car model
 
 The main objectives of this experiment are to:
 
-- Load a CSV file into a Pandas DataFrame
 - Select rows and columns using positional and label-based indexing
 - Filter records using Boolean conditions
 - Create subsets of a DataFrame without modifying the original dataset
+
+## Programming Problems
+### A. Positional and Label-Based Slicing
+
+This part focuses on selecting rows and columns from the `cars` DataFrame. It also demonstrates the use of position slicing and column label selection.
+
+### B. Model Lookup
+
+This part uses Boolean indexing on the `Model` column to locate specific car models.
+The models are selected by name rather than by hard-coded row numbers.
+
+### C. Multi-Model Subsetting
+This part creates a new DataFrame named `selected_cars` containing the following models:
+
+- Datsun 710
+- Lotus Europa
+- Ferrari Dino
 
 ## Files
 
